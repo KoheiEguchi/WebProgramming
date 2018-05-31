@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>ユーザー一覧</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/origin/common.css">
+	<style type="text/css">
+		body {}
+		p.right{text-align:right;}
+		.long{width:24%; font size:100%;}
+		.short{width:11.5%; font size:100%;}
+		.birthspace{margin-left:117px;}
+		.listbutton{width:32%;}
+	</style>
+</head>
+
+<body>
+	<div class="loginUser">
+		<p class="userName">ユーザー名さん</p>
+		<p class="logout"><a href="login.html">ログアウト</a></p>
+	</div>
+
+	<h1>ユーザー一覧</h1>
+	<p class="right"><a href="registration.html"><input type="submit" class="button btn btn-light" value="新規登録"></a></p>
+	<p>ログインID<input class="leftspace long" type="text" placeholder="login ID"></input></p>
+	<p>ユーザー名<input class="leftspace long" type="text" placeholder="user name"></input></p>
+	<p>生年月日<input class="birthspace short" type="date"></input>～<input class="short" type="date"></p>
+	<p><a href="userlist.html"><img src="picture/bookshelf.png" alt="一覧" width="100px" height="100px"></a></p>
+	<p class="right"><input class="button btn btn-info" type="submit" value="検索"></p>
+	<div class="container">
+		<hr width="95%" color="black">
+		<table class="table table-bordered">
+			<tr class="table-secondary">
+				<th>ログインID</th>
+				<th>ユーザー名</th>
+				<th>生年月日</th>
+				<th></th>
+			</tr>
+
+			<tr>
+				<td>id0001</td>
+				<td>田中太郎</td>
+				<td>1989/04/26</td>
+				<td>
+					<a href="detail.html"><input type="submit" class="listbutton btn btn-primary" value="詳細"></a>
+					<a href="update.html"><input type="submit" class="listbutton btn btn-success" value="更新"></a>
+					<a href="delete.html"><input type="submit" class="listbutton btn btn-danger" value="削除"></a>
+				</td>
+			</tr>
+
+			<tr>
+				<td>id0002</td>
+				<td>佐藤二朗</td>
+				<td>2001/11/12</td>
+				<td>
+					<a href="detail.html"><input type="submit" class="listbutton btn btn-primary" value="詳細"></a>
+					<a href="update.html"><input type="submit" class="listbutton btn btn-success" value="更新"></a>
+					<a href="delete.html"><input type="submit" class="listbutton btn btn-danger" value="削除"></a>
+				</td>
+			</tr>
+
+			<tr>
+				<td>id0003</td>
+				<td>佐川真司</td>
+				<td>2000/01/01</td>
+				<td>
+					<a href="detail.html"><input type="submit" class="listbutton btn btn-primary" value="詳細"></a>
+					<a href="update.html"><input type="submit" class="listbutton btn btn-success" value="更新"></a>
+					<a href="delete.html"><input type="submit" class="listbutton btn btn-danger" value="削除"></a>
+				</td>
+				</tr>
+		</table>
+	</div>
+
+</body>
+
+</html>

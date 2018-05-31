@@ -1,0 +1,86 @@
+body {
+	background-color: #f5deb3;
+	margin-left:170px;
+	margin-right:170px;
+	padding: 0;
+}
+
+.loginUser {
+	background-color: #343a40;
+	color:#fff;
+}
+
+.userName {
+	text-align: left;
+	float: left;
+}
+
+.logout {
+	text-align: right;
+}
+
+h1{
+	text-align:center;
+	font:250% ＭＳ Ｐゴシック;
+	margin-bottom:40px;
+	}
+
+p{
+	text-align:center
+}
+
+.button{
+	width:15%;
+}
+
+.leftspace {
+	margin-left: 100px;
+}
+
+.leftshortspace{
+	margin-left:60px;
+}
+
+.leftlongspace{
+	margin-left:135px;
+}
+
+.rightspace{
+	margin-right:30px;
+}
+
+.topspace{
+	margin-top:60px;
+}
+
+.minispace{
+	margin-bottom:20px;
+}
+
+.detailA{
+	text-align:left;
+	float:left;
+	margin-left:607px;
+	font-size:large;
+}
+
+.detailB{
+	text-align:right;
+	margin-right:607px;
+	font-size:large;
+}
+
+.deleteCancel{
+	text-align:left;
+	float:left;
+	margin-left:400px;
+	padding-left:80px;
+	width:15%;
+}
+
+.deleteOk{
+	text-align:right;
+	margin-right:100px;
+	padding-right:28px;
+	width:5%;
+}
